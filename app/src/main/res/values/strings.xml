@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FindYourKind</string>
+    <string name="title_activity_host_event">HostEventActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

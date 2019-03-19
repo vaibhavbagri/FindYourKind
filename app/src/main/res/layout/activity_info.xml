@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#38393C"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/mainToolbar"
+        layout="@layout/main_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:background="#38393C"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/eventName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Name"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:paddingBottom="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/eventLocationTime"
+                android:layout_width="232dp"
+                android:layout_height="48dp"
+                android:hint="Location and Time"
+                android:paddingBottom="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/eventType"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Type"
+                android:paddingBottom="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/eventDescription"
+            android:layout_width="match_parent"
+            android:layout_height="482dp"
+            android:layout_weight="1"
+            android:fadeScrollbars="true"
+            android:gravity="top"
+            android:hint="Description"
+            android:scrollbars="vertical"
+            android:textSize="20sp"
+            android:verticalScrollbarPosition="defaultPosition"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/eventRegister"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Register"
+            android:background="#9C9C9C"/>
+    </LinearLayout>
+</LinearLayout>

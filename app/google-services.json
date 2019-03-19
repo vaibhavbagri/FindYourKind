@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "228563642192",
+    "firebase_url": "https://findyourkind-cc515.firebaseio.com",
+    "project_id": "findyourkind-cc515",
+    "storage_bucket": "findyourkind-cc515.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228563642192:android:d4ec988159f876c6",
+        "android_client_info": {
+          "package_name": "com.example.vaibh.findyourkind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228563642192-ii12tbhen0rcccm1g3945emgq4cs9u0o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vaibh.findyourkind",
+            "certificate_hash": "c718b5a688cfbd9dc7f1bbd74d7dad8bbb72a623"
+          }
+        },
+        {
+          "client_id": "228563642192-rnqbqk6dvvq5tu008l8ds6rnf33nq0bu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuWX7MnhnWsm3G68qAngzaXbzqPvztbX8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228563642192-rnqbqk6dvvq5tu008l8ds6rnf33nq0bu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

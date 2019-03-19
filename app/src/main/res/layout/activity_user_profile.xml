@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#38393C"
+    tools:context=".UserProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/mainToolbar"
+            layout="@layout/main_toolbar" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/textViewHost"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/mainToolbar"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:text="Events Currently Hosting:"-->
+            <!--android:textSize="18sp" />-->
+
+        <ListView
+            android:id="@+id/hostingListView"
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/textViewAttend"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/mainToolbar"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="Events Currently Attending:"-->
+            <!--android:textSize="18sp" />-->
+
+        <!--<ListView-->
+            <!--android:id="@+id/attendingListView"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="186dp"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_marginStart="0dp"-->
+            <!--android:layout_marginLeft="0dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginEnd="0dp"-->
+            <!--android:layout_marginRight="0dp" />-->
+    </LinearLayout>
+
+</RelativeLayout>
